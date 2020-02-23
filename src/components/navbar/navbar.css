@@ -1,0 +1,35 @@
+.navbar-direction {
+    flex-direction: row;
+}
+
+.logo-size {
+    width: 192px;
+    height: 32px;
+}
+
+.sm-logo-size {
+    width: 32px;
+    height: 24px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+    .mv-logo {
+        display: none;
+    }
+
+    .mv-logo-sm {
+        display: inline;
+    }
+}
+  
+/* Big Styles */
+@media only screen and (min-width: 768px) {
+    .mv-logo {
+        display: inline;
+    }
+
+    .mv-logo-sm {
+        display: none;
+    }
+}

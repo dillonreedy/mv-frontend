@@ -1,0 +1,28 @@
+.signup-page__padding {
+    padding: 3rem;
+}
+
+.signup-mv-logo {
+    height: 2rem;
+    width: 16rem;
+}
+
+.signup-page__title {
+    color: #fff;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.signup-page__paragraph {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.signup-page__paragraph span {
+    display: block;
+}

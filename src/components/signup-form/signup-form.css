@@ -1,0 +1,26 @@
+.text-green, .text-green:hover {
+    color: #3bb249;
+}
+
+.registration-form-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+}
+
+@media only screen and (min-width: 1200px) {
+    .signup-form {
+        margin-top: 3rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .signup-form {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3rem;
+    }
+}

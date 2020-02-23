@@ -1,0 +1,44 @@
+/*
+    masthead,
+    text-white,
+    title,
+    underline,
+    subtitle
+*/
+
+.masthead {
+    background-image: url('../../assets/images/office.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1440px;
+    height: 16rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .masthead {
+        height: 380px;
+    }
+}
+
+.text-white {
+    color: white;
+}
+
+.title {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 1rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-family: 'PT Sans';
+    font-weight: 700;
+}

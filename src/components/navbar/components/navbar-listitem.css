@@ -1,0 +1,22 @@
+.link-text {
+    color: #444;
+    font-size: 15px;
+    font-family: 'Heebo';
+    font-weight: 500;
+}
+
+.border-b-4 {
+    border-bottom: 4px solid transparent; 
+}
+
+.nav-item:hover a div{
+    color: rgb(59, 178, 73);
+}
+
+.nav-item:hover{
+    border-color: rgb(59, 178, 73);
+}
+
+.link-decoration:hover {
+    text-decoration: none;
+}

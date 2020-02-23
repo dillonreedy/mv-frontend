@@ -1,0 +1,9 @@
+.error-label {
+    font-family: Heebo;
+    font-weight: 300;
+    color: #e3342f;
+    padding: 1rem;
+    border: 1px solid #ffd3d3;
+    background-color: #fcebea;
+    border-radius: .25rem;
+}

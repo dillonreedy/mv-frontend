@@ -1,0 +1,34 @@
+
+.btn-placement {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-10%);
+}
+
+.btn-color {
+    background: linear-gradient(90deg,#3bb249,#3aa447);
+}
+
+.btn-text, .btn-text:active, .btn-text:hover {
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.btn-size {
+    width: 12rem;
+    padding: 1.25rem 2rem;
+}
+
+.btn-rounded-edges {
+    border-radius: 5px;
+}
+
+.btn-no-border {
+    border: none;
+}
+
+.btn-shadow {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.1);;
+}
