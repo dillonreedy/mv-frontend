@@ -7,7 +7,7 @@ function FailedAttempt(props)
     if (!(props.errorText)) return null;
 
     return (
-    <div className="row justify-content-center pb-3 pt-2">
+    <div className="row justify-content-center pb-3">
         <div className="col">
             <ErrorLabel text={props.errorText}/>
         </div>

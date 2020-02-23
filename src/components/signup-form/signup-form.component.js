@@ -72,7 +72,6 @@ class SignupForm extends React.Component {
     handleSubmit = e => {
         e.preventDefault();
         const isValid = this.validate();
-        console.log(isValid);
         if (isValid)
         {
             signupService.signup({
@@ -82,7 +81,6 @@ class SignupForm extends React.Component {
                 lastName: this.state.lastName,
                 referralSource: this.state.referralSource,
             }).then(signedUp => {
-                console.log(`signedUp: ${signedUp}`);
                 if (signedUp)
                 {
                     window.confirm(`The user has successfully signed up.`);

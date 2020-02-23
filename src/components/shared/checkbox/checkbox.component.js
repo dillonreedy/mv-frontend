@@ -4,7 +4,7 @@ import ErrorLabel from '../error-label/error-label.component';
 function Checkbox(props) {
     return (
         <div>
-            <div className="form-check mb-2">
+            <div className="form-check pb-2">
                 <input name="consent" 
                     type="checkbox" 
                     className="form-check-input" 
